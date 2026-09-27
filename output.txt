@@ -1,0 +1,60 @@
+DATA STRUCTURES AND ALGORITHMS
+ASSIGNMENT 2 – QUESTION 10
+PROGRAM OUTPUTS
+
+
+========================================
+1. MERGE SORT
+========================================
+
+Original array:
+20 15 20 10 15 20 25 10
+
+Merge Sort intermediate steps:
+After merging: 15 20
+After merging: 10 20
+After merging: 10 15 20 20
+After merging: 15 20
+After merging: 10 25
+After merging: 10 15 20 25
+After merging: 10 10 15 15 20 20 20 25
+
+Sorted array:
+10 10 15 15 20 20 20 25
+
+Number of comparisons = 16
+
+
+========================================
+2. QUICK SORT
+========================================
+
+Original array:
+20 15 20 10 15 20 25 10
+
+Quick Sort intermediate steps:
+Pivot = 10 : 10 15 20 10 15 20 25 20
+Pivot = 15 : 10 15 20 10 15 20 25 20
+Pivot = 20 : 10 15 20 10 15 20 25 20
+Pivot = 20 : 10 15 20 10 15 20 20 25
+
+Sorted array:
+10 10 15 15 20 20 20 25
+
+Number of comparisons = 16
+
+
+========================================
+3. STABLE MERGE SORT
+========================================
+
+Stable Merge Sort Result:
+P4(10) P8(10) P2(15) P5(15) P1(20) P3(20) P6(20) P7(25)
+
+
+========================================
+4. STABLE QUICK SORT
+========================================
+
+Stable Quick Sort Result:
+P4(10) P8(10) P2(15) P5(15) P1(20) P3(20) P6(20) P7(25)
